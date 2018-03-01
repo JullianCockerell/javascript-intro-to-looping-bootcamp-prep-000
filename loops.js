@@ -34,6 +34,7 @@ function doWhileLoop(array2)
   do{
     array2.pop();
   } while( maybeTrue() && array2.length > 0);
+  return array2;
 }
 
 
