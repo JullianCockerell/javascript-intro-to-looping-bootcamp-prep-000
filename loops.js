@@ -29,11 +29,11 @@ function maybeTrue()
   return Math.random() >= 0.5;
 }
 
-function doWhileLoop(array)
+function doWhileLoop(array2)
 {
   do{
-    array.pop();
-  } while( maybeTrue() && array.length > 0);
+    array2.pop();
+  } while( maybeTrue() && array2.length > 0);
 }
 
 
