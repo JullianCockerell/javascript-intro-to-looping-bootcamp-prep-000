@@ -8,20 +8,20 @@ function whileLoop(number)
   return 'done';
 }
 
-function forLoop(array)
+function forLoop(array2)
 {
   for(var i = 1; i < 26; i++)
   {
     if(i === 1)
     {
-      array.push(`I am ${i} strange loop.`);
+      array2.push(`I am ${i} strange loop.`);
     }
     else
     {
-      array.push(`I am ${i} strange loops.`);
+      array2.push(`I am ${i} strange loops.`);
     }
   }
-  return array;
+  return array2;
 }
 
 function maybeTrue() 
