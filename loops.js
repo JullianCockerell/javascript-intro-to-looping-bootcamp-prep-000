@@ -24,17 +24,18 @@ function forLoop(array)
   return array;
 }
 
-function doWhileLoop(array)
-{
-  do
-  {
-    array.shift();
-  } while(maybeTrue() && array.length > 0);
-}
-
 function maybeTrue() 
 {
   return Math.random() >= 0.5;
 }
+
+function doWhileLoop(array)
+{
+  do{
+    array.pop();
+  } while(maybeTrue() && array.length > 0);
+}
+
+
 
 
